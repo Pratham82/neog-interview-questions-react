@@ -13,3 +13,9 @@
   box-shadow: 0px 2px 5px -1px black;
   background-color: #49a0eb;
 }
+
+.activeLink {
+  display: inline-block;
+  padding-right: 10px;
+  border-bottom: 1px solid white;
+}
