@@ -1,6 +1,7 @@
 import Navbar from '../../components/Navbar'
 import Head from 'next/head'
 import Heading from '../../components/Heading'
+import Container from '../../components/Container'
 
 export default function () {
   return (
@@ -9,7 +10,9 @@ export default function () {
         <title>Mock interview Questions</title>
       </Head>
       <Navbar />
-      <Heading heading="Mock Interview Questions" />
+      <Container>
+        <Heading heading="Mock Interview Questions" />
+      </Container>
     </>
   )
 }
