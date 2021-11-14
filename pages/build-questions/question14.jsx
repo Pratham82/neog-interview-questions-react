@@ -5,7 +5,7 @@ export default function () {
   return (
     <>
       <Navbar />
-      <Heading heading="Question 1" />
+      <Heading heading="Question 14" />
     </>
   )
 }
