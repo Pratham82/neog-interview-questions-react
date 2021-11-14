@@ -3,7 +3,11 @@ import Navbar from '../../components/Navbar'
 import Head from 'next/head'
 import Heading from '../../components/Heading'
 import Link from 'next/link'
-const questions = [1, 2]
+import Footer from '../../components/Footer'
+import Container from '../../components/Container'
+import buildQuestions from '../../data/buildQuestions'
+import styles from '../../styles/Build.module.css'
+
 export default function () {
   return (
     <>
@@ -11,14 +15,22 @@ export default function () {
         <title>NeoG Build Questions</title>
       </Head>
       <Navbar />
-      <Heading heading="NeoG Build Questions" />
-      {questions.map((_, i) => (
-        <h3>
-          <Link href={`/build-questions/question${i + 1}`}>
-            {`Question -${i + 1}`}
+      <Container>
+        <Heading heading="NeoG Build Questions" />
+        {buildQuestions.map(({ question, link }, i) => (
+          <Link href={link} key={i}>
+            <div className={styles.questionContainer}>
+              <div>
+                {i + 1}. {question}
+              </div>
+              <div className={styles.linkContainer}>
+                {link !== '/build-questions/' ? 'Live 🟢' : 'N.A. ⛔'}
+              </div>
+            </div>
           </Link>
-        </h3>
-      ))}
+        ))}
+      </Container>
+      <Footer />
     </>
   )
 }
