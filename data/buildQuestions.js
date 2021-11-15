@@ -27,7 +27,7 @@ const buildQuestions = [
   {
     question:
       'Create a CLI app which takes name, unit test marks, pre final marks, final marks of 5 students. And then print who has the highest marks. What if I ask you to print the average as well?',
-    link: '/build-questions/',
+    link: 'https://replit.com/@pratham82/build-question-6?embed=true#index.js',
   },
   {
     question:
@@ -87,7 +87,7 @@ const buildQuestions = [
   {
     question:
       "Create a CLI app which would detect fake news. This app will take news as input and then source. If source is Facebook or whatsapp then it will output user saying, 'Don't believe things on FB and Whatsapp'. Can you extend this to include telegram as well?",
-    link: '/build-questions/',
+    link: 'https://replit.com/@pratham82/build-question-18?embed=true#index.js',
   },
 ]
 
