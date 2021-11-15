@@ -4,7 +4,6 @@ import { useState } from 'react'
 import QuestionContainer from '../../components/QuestionContainer'
 import QuestionHeader from '../../components/QuestionText'
 import styles from '../../styles/Questions.module.css'
-import loader from '../../public/Rolling-1s-200px.gif'
 import loader2 from '../../public/hug.gif'
 import Image from 'next/image'
 
