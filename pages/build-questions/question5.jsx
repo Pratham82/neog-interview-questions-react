@@ -5,7 +5,7 @@ import QuestionContainer from '../../components/QuestionContainer'
 import QuestionHeader from '../../components/QuestionText'
 import styles from '../../styles/Questions.module.css'
 
-export default function () {
+export default function Question5() {
   const [input, setInput] = useState('')
   const [color, setColor] = useState(16)
   const questionText =

@@ -6,7 +6,7 @@ import styles from '../../styles/Questions.module.css'
 
 const questionText =
   'Q.2. Create a web app which would take two inputs. It would also have 4 buttons: +, -, x /. Based on the button clicked perform the operation on the two inputs. You can do this in React or vanillaJS based on your choice.'
-export default function () {
+export default function Question2() {
   const [input1, setInput1] = useState('')
   const [input2, setInput2] = useState('')
   const [result, setResult] = useState()

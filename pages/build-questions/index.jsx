@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import Navbar from '../../components/Navbar'
 import Head from 'next/head'
 import Heading from '../../components/Heading'
@@ -8,7 +7,7 @@ import Container from '../../components/Container'
 import buildQuestions from '../../data/buildQuestions'
 import styles from '../../styles/Build.module.css'
 
-export default function () {
+export default function BuildQuestions() {
   return (
     <>
       <Head>
@@ -18,7 +17,7 @@ export default function () {
       <Container>
         <Heading heading="NeoG Build Questions" />
         {buildQuestions.map(({ question, link }, i) => (
-          <Link href={link} key={i}>
+          <Link href={link} key={i} passHref>
             <div className={styles.questionContainer}>
               <div>
                 {i + 1}. {question}

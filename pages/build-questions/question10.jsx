@@ -13,7 +13,7 @@ const statuses = {
   404: 'User Not Found!',
   401: 'Unauthorized Error!',
 }
-export default function () {
+export default function Question10() {
   const URL = 'https://mystery-api.kushanksriraj.repl.co/get'
   const [message, setMessage] = useState('')
   const fetchError = () => {

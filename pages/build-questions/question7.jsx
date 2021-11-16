@@ -8,7 +8,7 @@ import styles from '../../styles/Questions.module.css'
 const questionText =
   '7. Create a web app with a button loaded. Show a text loading... on a web app. However, hide it if I click on the button loaded.'
 
-export default function () {
+export default function Question7() {
   const [isLoading, setLoading] = useState(false)
 
   return (

@@ -12,7 +12,7 @@ const questionText =
 
 const URL = 'https://otpgenerator.ishanjirety.repl.co/get-otp?name='
 
-export default function () {
+export default function Question8() {
   const [username, setUsername] = useState('')
   const [output, setOutput] = useState('')
   const getOTP = () => {
@@ -45,7 +45,7 @@ export default function () {
         </button>
         <h2>
           {output === 'loading' ? (
-            <Image src={loader2} height="100px" width="100px" />
+            <Image src={loader2} height="100px" width="100px" alt="loader"/>
           ) : (
             output
           )}
