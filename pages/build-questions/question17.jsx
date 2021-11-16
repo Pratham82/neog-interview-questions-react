@@ -5,7 +5,7 @@ import QuestionHeader from '../../components/QuestionText'
 const questionText =
   "17. Create a CLI app which would detect fake news. This app will take news as input and then source. If source is Facebook or whatsapp then it will output user saying, 'Don't believe things on FB and Whatsapp'. Can you extend this to include telegram as well?"
 
-export default function () {
+export default function Question17() {
   const u1 = { name: 'Ram', power: 2500, yuga: 'Treta' }
   const u2 = { name: 'Krishna', power: 2325, yuga: 'Dwapar' }
   const checkMostPowerfulCombined = (user1, user2) =>

@@ -8,7 +8,7 @@ import styles from '../../styles/Questions.module.css'
 const questionText =
   'Q.4. Create a web app where I can input a text. Now, create three buttons h1, h2, h3. When I click on any of the button, the text should become h1, h2, or h3.'
 
-export default function () {
+export default function Question4() {
   const [input, setInput] = useState('')
   const [fontSize, setFontSize] = useState(16)
   const [op, setOp] = useState('')

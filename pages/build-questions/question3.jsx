@@ -7,7 +7,7 @@ import styles from '../../styles/Questions.module.css'
 
 const questionText =
   'Q.3. Create a web app where I can input a text. Now create two buttons + and -. On clicking + increase the fontSize by 2px and vice versa.'
-export default function () {
+export default function Question3() {
   const [input, setInput] = useState('')
   const [fontSize, setFontSize] = useState(16)
 

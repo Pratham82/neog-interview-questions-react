@@ -7,7 +7,7 @@ import styles from '../../styles/Questions.module.css'
 const questionText =
   '14. Create color variables in CSS. Two colors: primary and secondary. Now make your h1 of primary color, h2 of secondary color. Make two buttons, primary and secondary using the same color. Can you also set a font from Google Font?'
 
-export default function () {
+export default function Question14() {
   return (
     <>
       <Navbar />
