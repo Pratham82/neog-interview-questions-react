@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styles from '../styles/Navbar.module.css'
-export default function () {
+export default function Navbar() {
   const navigationData = [
     { title: 'NeoG Build', link: 'build-questions' },
     { title: 'Mock Interview', link: 'mock-questions' },
