@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Heading from '../../components/Heading'
 import Container from '../../components/Container'
 
-export default function () {
+export default function MockQuestions() {
   return (
     <>
       <Head>

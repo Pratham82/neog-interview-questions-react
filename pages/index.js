@@ -18,13 +18,13 @@ export default function Home() {
       <Navbar />
       <main className={styles.main}>
         <div className={styles.grid}>
-          <Link href="/build-questions">
+          <Link href="/build-questions" passHref>
             <div className={styles.card}>
               <h2>Build Questions &rarr;</h2>
               <p>Solutions for all the build questions</p>
             </div>
           </Link>
-          <Link href="/mock-questions">
+          <Link href="/mock-questions" passHref>
             <div className={styles.card}>
               <h2>Mock Questions &rarr;</h2>
               <p>Solutions for all the build questions</p>
