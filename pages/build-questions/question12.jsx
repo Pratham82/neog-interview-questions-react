@@ -22,8 +22,8 @@ export default function Question12() {
     <>
       <Navbar />
       <Heading heading="Question 12" />
-      <QuestionHeader questionText={questionText} />
       <QuestionContainer>
+        <QuestionHeader questionText={questionText} />
         <label htmlFor="password">Q1.</label>
         <input
           className={styles.inputStyles}

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Heading from '../../components/Heading'
 import Navbar from '../../components/Navbar'
+import QuestionContainer from '../../components/QuestionContainer'
 import QuestionHeader from '../../components/QuestionText'
 import styles from '../../styles/Questions.module.css'
 
@@ -29,6 +30,7 @@ export default function Question2() {
     <>
       <Navbar />
       <Heading heading="Question 2" />
+      <QuestionContainer>
       <QuestionHeader questionText={questionText} />
       <div
         style={{
@@ -71,6 +73,8 @@ export default function Question2() {
         </div>
         <h3>{result}</h3>
       </div>
+
+      </QuestionContainer>
     </>
   )
 }

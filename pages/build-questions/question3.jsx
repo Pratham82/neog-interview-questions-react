@@ -20,8 +20,8 @@ export default function Question3() {
     <>
       <Navbar />
       <Heading heading="Question 3" />
-      <QuestionHeader questionText={questionText} />
       <QuestionContainer>
+      <QuestionHeader questionText={questionText} />
         <label htmlFor="input">Input: </label>
         <input
           name="input"
