@@ -5,7 +5,7 @@ import QuestionContainer from '../../components/QuestionContainer'
 import QuestionHeader from '../../components/QuestionText'
 
 const questionText =
-  '1.1 Build a counter application and then some questions were asked related to the coding part. '
+  'Build a counter application and then some questions were asked related to the coding part. '
 export default function Mock1_1() {
   const [number, setNumber] = useState(0)
   const handleClick = action => {

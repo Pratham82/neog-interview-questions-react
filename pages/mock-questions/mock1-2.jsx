@@ -26,8 +26,8 @@ export default function Mock1_2() {
     <>
       <Navbar />
       <Heading heading="Mock 1.2" />
-      <QuestionHeader questionText="" />
       <QuestionContainer>
+      <QuestionHeader questionText={questionText}/>
         {titles.length > 0 &&
           titles.map(({ title }, i) => <h2 key={i}> Title: {title}</h2>)}
       </QuestionContainer>

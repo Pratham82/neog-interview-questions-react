@@ -5,7 +5,7 @@ import QuestionContainer from '../../components/QuestionContainer'
 import QuestionHeader from '../../components/QuestionText'
 
 const questionText = `
-eate a list of 3 objects that has 2 attributes name of the task and completed which is a boolean value true or false. Display those tasks which are completed or which have attributes as completed:true on the click of a button.
+Create a list of 3 objects that has 2 attributes name of the task and completed which is a boolean value true or false. Display those tasks which are completed or which have attributes as completed:true on the click of a button.
 `
 export default function Mock7_2() {
   const allTasks = [

@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar'
 import QuestionContainer from '../../components/QuestionContainer'
 import QuestionHeader from '../../components/QuestionText'
 const questionText = `
-1. Create a password checker web app. If a password is less than 10 characters then show an error to the user otherwise show success. 
+Create a password checker web app. If a password is less than 10 characters then show an error to the user otherwise show success. 
     
     Extension:
     Check button to be active only if the password is greater than 10 characters.

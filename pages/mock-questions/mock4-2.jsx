@@ -5,7 +5,7 @@ import QuestionContainer from '../../components/QuestionContainer'
 import QuestionHeader from '../../components/QuestionText'
 
 const questionText = `
-2. Create 2 buttons with text YJHD and ZNMD. At the click of a button, call the given API with the query as same as the button text, and display the message you get on the screen. 
+Create 2 buttons with text YJHD and ZNMD. At the click of a button, call the given API with the query as same as the button text, and display the message you get on the screen. 
 
 API - [https://mock-practice.prakhar10v.repl.co/bollywood?name=](https://mock-practice.prakhar10v.repl.co/bollywood?name=)
     

@@ -5,7 +5,7 @@ import QuestionContainer from '../../components/QuestionContainer'
 import QuestionHeader from '../../components/QuestionText'
 
 const questionText = `
-  5.2. Here is an API:
+  Here is an API:
     https://otpgenerator.ishanjirety.repl.co/get-otp?name=
 
     You will enter a name as input from your app and send this API a request with the name along with it (this will be the final URL :

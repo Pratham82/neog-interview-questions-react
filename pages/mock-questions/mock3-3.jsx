@@ -5,7 +5,7 @@ import QuestionContainer from '../../components/QuestionContainer'
 import QuestionHeader from '../../components/QuestionText'
 
 const questionText = `
-3. Create a web app, where I input my name, and then I input a password.
+Create a web app, where I input my name, and then I input a password.
 If the password contains the input name in it, show an error message "Password can't have name"
 `
 export default function Mock3_3() {
