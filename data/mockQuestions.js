@@ -51,6 +51,14 @@ const mockQuestions = [
     question: 'Mock 6.2',
     link: '/mock-questions/mock6-2',
   },
+  {
+    question: 'Mock 7.1',
+    link: '/mock-questions/mock7-1',
+  },
+  {
+    question: 'Mock 7.2',
+    link: '/mock-questions/mock7-2',
+  },
 ]
 
 export default mockQuestions
