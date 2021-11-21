@@ -30,6 +30,12 @@ export default function Home() {
               <p>Solutions for all the build questions</p>
             </div>
           </Link>
+          <Link href="/conceptual-questions" passHref>
+            <div className={styles.card}>
+              <h2>Mock Questions &rarr;</h2>
+              <p>Solutions for all the conceptual questions</p>
+            </div>
+          </Link>
         </div>
       </main>
       <Footer />

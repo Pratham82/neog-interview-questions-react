@@ -4,6 +4,7 @@ export default function Navbar() {
   const navigationData = [
     { title: 'NeoG Build', link: 'build-questions' },
     { title: 'Mock Interview', link: 'mock-questions' },
+    { title: 'Conceptual Questions', link: 'conceptual-questions' },
   ]
   return (
     <div className={styles.navContainer}>
