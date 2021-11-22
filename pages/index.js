@@ -32,7 +32,7 @@ export default function Home() {
           </Link>
           <Link href="/conceptual-questions" passHref>
             <div className={styles.card}>
-              <h2>Mock Questions &rarr;</h2>
+              <h2>Conceptual Questions &rarr;</h2>
               <p>Solutions for all the conceptual questions</p>
             </div>
           </Link>
