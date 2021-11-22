@@ -15,7 +15,7 @@ export default function ConceptualQuestions() {
       <Container>
         <Heading heading="Conceptual Questions" />
         {conceptualQuestion.map(({ question, answer }, i) => (
-          <details className={styles.question}>
+          <details className={styles.question} key={i}>
             <summary>
               {i + 1}. {question}
             </summary>
