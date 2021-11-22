@@ -1,0 +1,9 @@
+.question {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.answer {
+  padding: 5px 10px;
+  color: rgb(88, 88, 88);
+}
