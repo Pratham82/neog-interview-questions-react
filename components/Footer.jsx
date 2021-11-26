@@ -7,6 +7,11 @@ import TwitterIcon from '../public/icons/twitter'
 export default function Footer() {
   return (
     <footer className={styles.footer}>
+      <div className={styles.credits}>
+        <a href="https://github.com/pratham82" target="_blank" rel="noreferrer">
+          Created with ❤️ by Prathamesh Mali © 2021
+        </a>
+      </div>
       {/* <div>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -21,25 +26,32 @@ export default function Footer() {
       </div> */}
       <div className={styles.socials}>
         <span style={{ paddingRight: '10px' }}>
-          <a href="https://github.com/pratham82" target="_blank">
+          <a
+            href="https://github.com/pratham82"
+            target="_blank"
+            rel="noreferrer"
+          >
             <GithubIcon />
           </a>
         </span>
         <span style={{ paddingRight: '10px' }}>
-          <a href="https://www.linkedin.com/in/prathameshmali/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/prathameshmali/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <LinkedInIcon />
           </a>
         </span>
         <span style={{ paddingRight: '10px' }}>
-          <a href="https://twitter.com/Pratham_82" target="_blank">
+          <a
+            href="https://twitter.com/Pratham_82"
+            target="_blank"
+            rel="noreferrer"
+          >
             <TwitterIcon />
           </a>
         </span>
-      </div>
-      <div className={styles.credits}>
-        <a href="https://github.com/pratham82" target="_blank">
-          Created with ❤️ by Prathamesh Mali © 2021
-        </a>
       </div>
     </footer>
   )
