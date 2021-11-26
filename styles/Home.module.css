@@ -14,13 +14,28 @@
 
 .footer {
   display: flex;
+  flex-direction: column;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
   /* height: 100px; */
+  padding-top: 30px;
   height: 100px;
+  font-size: 18px;
 }
 
+.credits {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials {
+  padding: 5px 0;
+  display: flex;
+}
 .footer a {
   display: flex;
   justify-content: center;
