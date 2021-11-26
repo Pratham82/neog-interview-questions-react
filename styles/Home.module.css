@@ -18,10 +18,8 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
-  /* height: 100px; */
-  padding-top: 30px;
-  height: 100px;
-  font-size: 18px;
+  padding: 43px 0;
+  height: 80px;
 }
 
 .credits {
